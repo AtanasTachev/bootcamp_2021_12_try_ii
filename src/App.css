@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  background-color: gainsboro;
+  width: auto;
+  height: auto;
 }
 
 .App-logo {
@@ -7,32 +9,94 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
+  color: black;
+  padding: 0;
+  justify-items: stretch;
+  background-color: rgb(59, 138, 228);
+}
+.nav{
+  font-size: large;
+  color: black;
+  height: 50px;
+  text-align: end;
+  vertical-align: initial;
+  justify-content:space-between;
+  padding: 15px;
+  background-color:rgb(102, 105, 110);
+  width: 100%;
+}
+.atag {
+  padding: 1px;
+  font-size: 1em;
+  margin-top: 0.7rem;
+  float:inherit;
+  color: aliceblue;
+  display:inline;
+  background-color: rgb(61, 64, 70);
+  border-radius: 0.35em;
+  margin-left: 0.5em;
+  margin-right: 1em;
+  justify-content: space-between;
+}
+
+.aRedTag {
+  padding: 1px;
+  font-size: 1em;
+  margin-top: 0.7rem;
+  float:inherit;
+  color: aliceblue;
+  display:inline;
+  background-color: rgb(236, 34, 15);
+  border-radius: 0.35em;
+  margin-left: 0.5em;
+  margin-right: 1em;
+  justify-content: space-between;
+}
+
+.h2tag {
+  padding: 1px;
+  float:left;
+  display: flex;
+  margin-top: 0.6rem;
+  margin-left: 3em;
+  font-size: 1.25em;
+  color: rgb(6, 7, 8);
+  display:inline;
+  background-color: rgba(255, 196, 34, 0.979);
+  border-radius: 0.35em;
+  margin-left: 0.5em;
+}
+
+.footer {
+  text-align: center;
+  display: flex;
+  font-size: 1rem;
   color: white;
+  justify-content: center;
+  background-color:rgb(102, 105, 110);
+  height: 2.5em;
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
 }
 
-.App-link {
-  color: #61dafb;
+.center {
+  display: flex;
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  opacity: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+

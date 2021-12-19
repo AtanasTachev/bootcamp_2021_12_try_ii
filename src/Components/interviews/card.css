@@ -1,0 +1,73 @@
+
+.atag {
+  padding: 1px;
+  font-size: 1em;
+  margin-top: 0.7rem;
+  float:inherit;
+  color: aliceblue;
+  display:inline;
+  background-color: rgb(61, 64, 70);
+  border-radius: 0.35em;
+  margin-left: 0.5em;
+  margin-right: 1em;
+  justify-content: space-between;
+}
+
+.aRedTag {
+  padding: 1px;
+  font-size: 1em;
+  margin-top: 0.7rem;
+  float:inherit;
+  color: aliceblue;
+  display:inline;
+  background-color: rgb(236, 34, 15);
+  border-radius: 0.35em;
+  margin-left: 0.5em;
+  margin-right: 1em;
+  justify-content: space-between;
+}
+
+.aBlueTag {
+  padding: 1px;
+  font-size: 1em;
+  margin-top: 0.7rem;
+  float:inherit;
+  color: aliceblue;
+  display:inline;
+  background-color: rgb(15, 19, 236);
+  border-radius: 0.35em;
+  margin-left: 0.5em;
+  margin-right: 1em;
+  justify-content: space-between;
+}
+
+.h2tag {
+  padding: 1px;
+  float:left;
+  display: flex;
+  margin-top: 0.6rem;
+  margin-left: 3em;
+  font-size: 1.25em;
+  color: rgb(6, 7, 8);
+  display:inline;
+  background-color: rgba(255, 196, 34, 0.979);
+  border-radius: 0.35em;
+  margin-left: 0.5em;
+}
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  opacity: 50%;
+}
+
+
+
+
+
+
